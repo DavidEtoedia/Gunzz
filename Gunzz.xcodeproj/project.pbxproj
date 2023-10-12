@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC8B5372AD8667C00D76E94 /* GunzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */; };
+		0CC8B5392AD8667C00D76E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5382AD8667C00D76E94 /* ContentView.swift */; };
+		0CC8B53B2AD8667D00D76E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8B53A2AD8667D00D76E94 /* Assets.xcassets */; };
+		0CC8B53E2AD8667D00D76E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8B53D2AD8667D00D76E94 /* Preview Assets.xcassets */; };
+		0CC8B5482AD8667D00D76E94 /* GunzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5472AD8667D00D76E94 /* GunzzTests.swift */; };
+		0CC8B5522AD8667D00D76E94 /* GunzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5512AD8667D00D76E94 /* GunzzUITests.swift */; };
+		0CC8B5542AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC8B5442AD8667D00D76E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC8B52B2AD8667C00D76E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC8B5322AD8667C00D76E94;
+			remoteInfo = Gunzz;
+		};
+		0CC8B54E2AD8667D00D76E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC8B52B2AD8667C00D76E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC8B5322AD8667C00D76E94;
+			remoteInfo = Gunzz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC8B5332AD8667C00D76E94 /* Gunzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gunzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzApp.swift; sourceTree = "<group>"; };
+		0CC8B5382AD8667C00D76E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CC8B53A2AD8667D00D76E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CC8B53D2AD8667D00D76E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CC8B5432AD8667D00D76E94 /* GunzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC8B5472AD8667D00D76E94 /* GunzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzTests.swift; sourceTree = "<group>"; };
+		0CC8B54D2AD8667D00D76E94 /* GunzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC8B5512AD8667D00D76E94 /* GunzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzUITests.swift; sourceTree = "<group>"; };
+		0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC8B5302AD8667C00D76E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B5402AD8667D00D76E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B54A2AD8667D00D76E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC8B52A2AD8667C00D76E94 = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5352AD8667C00D76E94 /* Gunzz */,
+				0CC8B5462AD8667D00D76E94 /* GunzzTests */,
+				0CC8B5502AD8667D00D76E94 /* GunzzUITests */,
+				0CC8B5342AD8667C00D76E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC8B5342AD8667C00D76E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5332AD8667C00D76E94 /* Gunzz.app */,
+				0CC8B5432AD8667D00D76E94 /* GunzzTests.xctest */,
+				0CC8B54D2AD8667D00D76E94 /* GunzzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC8B5352AD8667C00D76E94 /* Gunzz */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */,
+				0CC8B5382AD8667C00D76E94 /* ContentView.swift */,
+				0CC8B53A2AD8667D00D76E94 /* Assets.xcassets */,
+				0CC8B53C2AD8667D00D76E94 /* Preview Content */,
+			);
+			path = Gunzz;
+			sourceTree = "<group>";
+		};
+		0CC8B53C2AD8667D00D76E94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B53D2AD8667D00D76E94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CC8B5462AD8667D00D76E94 /* GunzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5472AD8667D00D76E94 /* GunzzTests.swift */,
+			);
+			path = GunzzTests;
+			sourceTree = "<group>";
+		};
+		0CC8B5502AD8667D00D76E94 /* GunzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8B5512AD8667D00D76E94 /* GunzzUITests.swift */,
+				0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */,
+			);
+			path = GunzzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CC8B5322AD8667C00D76E94 /* Gunzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC8B5572AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "Gunzz" */;
+			buildPhases = (
+				0CC8B52F2AD8667C00D76E94 /* Sources */,
+				0CC8B5302AD8667C00D76E94 /* Frameworks */,
+				0CC8B5312AD8667C00D76E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gunzz;
+			productName = Gunzz;
+			productReference = 0CC8B5332AD8667C00D76E94 /* Gunzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CC8B5422AD8667D00D76E94 /* GunzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC8B55A2AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "GunzzTests" */;
+			buildPhases = (
+				0CC8B53F2AD8667D00D76E94 /* Sources */,
+				0CC8B5402AD8667D00D76E94 /* Frameworks */,
+				0CC8B5412AD8667D00D76E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC8B5452AD8667D00D76E94 /* PBXTargetDependency */,
+			);
+			name = GunzzTests;
+			productName = GunzzTests;
+			productReference = 0CC8B5432AD8667D00D76E94 /* GunzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CC8B54C2AD8667D00D76E94 /* GunzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC8B55D2AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "GunzzUITests" */;
+			buildPhases = (
+				0CC8B5492AD8667D00D76E94 /* Sources */,
+				0CC8B54A2AD8667D00D76E94 /* Frameworks */,
+				0CC8B54B2AD8667D00D76E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC8B54F2AD8667D00D76E94 /* PBXTargetDependency */,
+			);
+			name = GunzzUITests;
+			productName = GunzzUITests;
+			productReference = 0CC8B54D2AD8667D00D76E94 /* GunzzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC8B52B2AD8667C00D76E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0CC8B5322AD8667C00D76E94 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0CC8B5422AD8667D00D76E94 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0CC8B5322AD8667C00D76E94;
+					};
+					0CC8B54C2AD8667D00D76E94 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0CC8B5322AD8667C00D76E94;
+					};
+				};
+			};
+			buildConfigurationList = 0CC8B52E2AD8667C00D76E94 /* Build configuration list for PBXProject "Gunzz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CC8B52A2AD8667C00D76E94;
+			productRefGroup = 0CC8B5342AD8667C00D76E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC8B5322AD8667C00D76E94 /* Gunzz */,
+				0CC8B5422AD8667D00D76E94 /* GunzzTests */,
+				0CC8B54C2AD8667D00D76E94 /* GunzzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC8B5312AD8667C00D76E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC8B53E2AD8667D00D76E94 /* Preview Assets.xcassets in Resources */,
+				0CC8B53B2AD8667D00D76E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B5412AD8667D00D76E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B54B2AD8667D00D76E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC8B52F2AD8667C00D76E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC8B5392AD8667C00D76E94 /* ContentView.swift in Sources */,
+				0CC8B5372AD8667C00D76E94 /* GunzzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B53F2AD8667D00D76E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC8B5482AD8667D00D76E94 /* GunzzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC8B5492AD8667D00D76E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC8B5522AD8667D00D76E94 /* GunzzUITests.swift in Sources */,
+				0CC8B5542AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC8B5452AD8667D00D76E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC8B5322AD8667C00D76E94 /* Gunzz */;
+			targetProxy = 0CC8B5442AD8667D00D76E94 /* PBXContainerItemProxy */;
+		};
+		0CC8B54F2AD8667D00D76E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC8B5322AD8667C00D76E94 /* Gunzz */;
+			targetProxy = 0CC8B54E2AD8667D00D76E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CC8B5552AD8667D00D76E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CC8B5562AD8667D00D76E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CC8B5582AD8667D00D76E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gunzz/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.Gunzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CC8B5592AD8667D00D76E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gunzz/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.Gunzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CC8B55B2AD8667D00D76E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.GunzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gunzz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gunzz";
+			};
+			name = Debug;
+		};
+		0CC8B55C2AD8667D00D76E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.GunzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gunzz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gunzz";
+			};
+			name = Release;
+		};
+		0CC8B55E2AD8667D00D76E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.GunzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gunzz;
+			};
+			name = Debug;
+		};
+		0CC8B55F2AD8667D00D76E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK2TMF98V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.GunzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gunzz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC8B52E2AD8667C00D76E94 /* Build configuration list for PBXProject "Gunzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC8B5552AD8667D00D76E94 /* Debug */,
+				0CC8B5562AD8667D00D76E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC8B5572AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "Gunzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC8B5582AD8667D00D76E94 /* Debug */,
+				0CC8B5592AD8667D00D76E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC8B55A2AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "GunzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC8B55B2AD8667D00D76E94 /* Debug */,
+				0CC8B55C2AD8667D00D76E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC8B55D2AD8667D00D76E94 /* Build configuration list for PBXNativeTarget "GunzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC8B55E2AD8667D00D76E94 /* Debug */,
+				0CC8B55F2AD8667D00D76E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC8B52B2AD8667C00D76E94 /* Project object */;
+}
