@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C016DE12AE03C4E00C8E0F6 /* GunzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C016DE02AE03C4E00C8E0F6 /* GunzModel.swift */; };
+		0C016DE32AE0417400C8E0F6 /* GunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C016DE22AE0417400C8E0F6 /* GunView.swift */; };
+		0C016DE52AE044E600C8E0F6 /* Gunzs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C016DE42AE044E600C8E0F6 /* Gunzs.swift */; };
+		0C3BC5EF2ADF553E00C82165 /* gold_gun.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BC5EE2ADF553E00C82165 /* gold_gun.scn */; };
+		0C5B92142ADE9AF900CADFC3 /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B92132ADE9AF900CADFC3 /* Progressbar.swift */; };
+		0C5B92172ADEF25400CADFC3 /* nasa.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B92162ADEF25400CADFC3 /* nasa.otf */; };
+		0C5B92192ADEF2BE00CADFC3 /* usfonts.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B92182ADEF2BE00CADFC3 /* usfonts.TTF */; };
+		0C5B921D2ADEF3F000CADFC3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B921C2ADEF3F000CADFC3 /* Fonts.swift */; };
+		0C5B92212ADF0DBA00CADFC3 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B92202ADF0DBA00CADFC3 /* Ratings.swift */; };
+		0C99FC492AE09BDE00DC44C2 /* revolver.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0C99FC482AE09BDE00DC44C2 /* revolver.scn */; };
+		0C99FC4B2AE0A4DC00DC44C2 /* dessert.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0C99FC4A2AE0A4DC00DC44C2 /* dessert.scn */; };
+		0CB25C302AE194F1002D5521 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB25C2F2AE194F1002D5521 /* Launch Screen.storyboard */; };
 		0CC8B5372AD8667C00D76E94 /* GunzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */; };
 		0CC8B5392AD8667C00D76E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5382AD8667C00D76E94 /* ContentView.swift */; };
 		0CC8B53B2AD8667D00D76E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8B53A2AD8667D00D76E94 /* Assets.xcassets */; };
@@ -14,6 +26,10 @@
 		0CC8B5482AD8667D00D76E94 /* GunzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5472AD8667D00D76E94 /* GunzzTests.swift */; };
 		0CC8B5522AD8667D00D76E94 /* GunzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5512AD8667D00D76E94 /* GunzzUITests.swift */; };
 		0CC8B5542AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */; };
+		0CC8B5642AD8677800D76E94 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5632AD8677800D76E94 /* MainView.swift */; };
+		0CC8B5662AD867CB00D76E94 /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8B5652AD867CB00D76E94 /* CustomSceneView.swift */; };
+		0CC8B56A2AD8886200D76E94 /* handGun.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8B5692AD8886200D76E94 /* handGun.scn */; };
+		0CC8B56C2AD8939A00D76E94 /* smallGun.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8B56B2AD8939A00D76E94 /* smallGun.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C016DE02AE03C4E00C8E0F6 /* GunzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzModel.swift; sourceTree = "<group>"; };
+		0C016DE22AE0417400C8E0F6 /* GunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunView.swift; sourceTree = "<group>"; };
+		0C016DE42AE044E600C8E0F6 /* Gunzs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gunzs.swift; sourceTree = "<group>"; };
+		0C3BC5EE2ADF553E00C82165 /* gold_gun.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = gold_gun.scn; path = ../../Downloads/gold/gold_gun.scn; sourceTree = "<group>"; };
+		0C5B92132ADE9AF900CADFC3 /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
+		0C5B92162ADEF25400CADFC3 /* nasa.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nasa.otf; sourceTree = "<group>"; };
+		0C5B92182ADEF2BE00CADFC3 /* usfonts.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = usfonts.TTF; sourceTree = "<group>"; };
+		0C5B921A2ADEF2EB00CADFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C5B921C2ADEF3F000CADFC3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0C5B92202ADF0DBA00CADFC3 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		0C99FC482AE09BDE00DC44C2 /* revolver.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = revolver.scn; sourceTree = "<group>"; };
+		0C99FC4A2AE0A4DC00DC44C2 /* dessert.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = dessert.scn; sourceTree = "<group>"; };
+		0CB25C2F2AE194F1002D5521 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0CC8B5332AD8667C00D76E94 /* Gunzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gunzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzApp.swift; sourceTree = "<group>"; };
 		0CC8B5382AD8667C00D76E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,10 @@
 		0CC8B54D2AD8667D00D76E94 /* GunzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC8B5512AD8667D00D76E94 /* GunzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzUITests.swift; sourceTree = "<group>"; };
 		0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunzzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CC8B5632AD8677800D76E94 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0CC8B5652AD867CB00D76E94 /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		0CC8B5692AD8886200D76E94 /* handGun.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = handGun.scn; sourceTree = "<group>"; };
+		0CC8B56B2AD8939A00D76E94 /* smallGun.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = smallGun.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +104,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C016DDF2AE03BE200C8E0F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C016DE02AE03C4E00C8E0F6 /* GunzModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5B92152ADEF23100CADFC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B92162ADEF25400CADFC3 /* nasa.otf */,
+				0C5B92182ADEF2BE00CADFC3 /* usfonts.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0C5B921B2ADEF3DE00CADFC3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B921C2ADEF3F000CADFC3 /* Fonts.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0C5B921E2ADF0DA400CADFC3 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B921F2ADF0DAE00CADFC3 /* New Group */,
+				0C5B92202ADF0DBA00CADFC3 /* Ratings.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		0C5B921F2ADF0DAE00CADFC3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		0CC8B52A2AD8667C00D76E94 = {
 			isa = PBXGroup;
 			children = (
+				0C99FC4A2AE0A4DC00DC44C2 /* dessert.scn */,
+				0C99FC482AE09BDE00DC44C2 /* revolver.scn */,
+				0C3BC5EE2ADF553E00C82165 /* gold_gun.scn */,
+				0CC8B56B2AD8939A00D76E94 /* smallGun.scn */,
+				0CC8B5692AD8886200D76E94 /* handGun.scn */,
 				0CC8B5352AD8667C00D76E94 /* Gunzz */,
 				0CC8B5462AD8667D00D76E94 /* GunzzTests */,
 				0CC8B5502AD8667D00D76E94 /* GunzzUITests */,
@@ -94,10 +173,16 @@
 		0CC8B5352AD8667C00D76E94 /* Gunzz */ = {
 			isa = PBXGroup;
 			children = (
+				0C016DDF2AE03BE200C8E0F6 /* Model */,
+				0C5B921B2ADEF3DE00CADFC3 /* Constants */,
+				0C5B921A2ADEF2EB00CADFC3 /* Info.plist */,
+				0C5B92152ADEF23100CADFC3 /* Fonts */,
+				0CC8B5622AD8676100D76E94 /* Views */,
 				0CC8B5362AD8667C00D76E94 /* GunzzApp.swift */,
 				0CC8B5382AD8667C00D76E94 /* ContentView.swift */,
 				0CC8B53A2AD8667D00D76E94 /* Assets.xcassets */,
 				0CC8B53C2AD8667D00D76E94 /* Preview Content */,
+				0CB25C2F2AE194F1002D5521 /* Launch Screen.storyboard */,
 			);
 			path = Gunzz;
 			sourceTree = "<group>";
@@ -125,6 +210,19 @@
 				0CC8B5532AD8667D00D76E94 /* GunzzUITestsLaunchTests.swift */,
 			);
 			path = GunzzUITests;
+			sourceTree = "<group>";
+		};
+		0CC8B5622AD8676100D76E94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B921E2ADF0DA400CADFC3 /* Subview */,
+				0CC8B5632AD8677800D76E94 /* MainView.swift */,
+				0CC8B5652AD867CB00D76E94 /* CustomSceneView.swift */,
+				0C5B92132ADE9AF900CADFC3 /* Progressbar.swift */,
+				0C016DE22AE0417400C8E0F6 /* GunView.swift */,
+				0C016DE42AE044E600C8E0F6 /* Gunzs.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +329,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C99FC4B2AE0A4DC00DC44C2 /* dessert.scn in Resources */,
+				0C99FC492AE09BDE00DC44C2 /* revolver.scn in Resources */,
+				0C3BC5EF2ADF553E00C82165 /* gold_gun.scn in Resources */,
+				0C5B92172ADEF25400CADFC3 /* nasa.otf in Resources */,
+				0CC8B56C2AD8939A00D76E94 /* smallGun.scn in Resources */,
+				0CC8B56A2AD8886200D76E94 /* handGun.scn in Resources */,
 				0CC8B53E2AD8667D00D76E94 /* Preview Assets.xcassets in Resources */,
 				0CC8B53B2AD8667D00D76E94 /* Assets.xcassets in Resources */,
+				0CB25C302AE194F1002D5521 /* Launch Screen.storyboard in Resources */,
+				0C5B92192ADEF2BE00CADFC3 /* usfonts.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +363,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5B92142ADE9AF900CADFC3 /* Progressbar.swift in Sources */,
+				0CC8B5662AD867CB00D76E94 /* CustomSceneView.swift in Sources */,
 				0CC8B5392AD8667C00D76E94 /* ContentView.swift in Sources */,
+				0CC8B5642AD8677800D76E94 /* MainView.swift in Sources */,
+				0C016DE32AE0417400C8E0F6 /* GunView.swift in Sources */,
+				0C5B921D2ADEF3F000CADFC3 /* Fonts.swift in Sources */,
 				0CC8B5372AD8667C00D76E94 /* GunzzApp.swift in Sources */,
+				0C5B92212ADF0DBA00CADFC3 /* Ratings.swift in Sources */,
+				0C016DE12AE03C4E00C8E0F6 /* GunzModel.swift in Sources */,
+				0C016DE52AE044E600C8E0F6 /* Gunzs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +534,10 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gunzz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +564,10 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gunzz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

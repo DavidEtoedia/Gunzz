@@ -17,6 +17,16 @@ struct ContentView: View {
         }
         .padding()
     }
+
+//    init(){
+//    for family in UIFont.familyNames {
+//    print(family)
+//
+//    for names in UIFont.fontNames(forFamilyName: family){
+//    print("== \(names)")
+//    }
+//    }
+//    }
 }
 
 struct ContentView_Previews: PreviewProvider {
